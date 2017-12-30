@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 121.0, 502.0, 1257.0, 655.0 ],
+		"rect" : [ 175.0, 164.0, 1257.0, 655.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -214,7 +214,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1883,9 +1883,9 @@
 					"maxclass" : "live.toolbar",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1.0, 604.0, 265.0, 50.0 ],
+					"patching_rect" : [ 0.0, 616.0, 265.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 604.0, 265.0, 50.0 ]
+					"presentation_rect" : [ 0.0, 616.0, 265.0, 50.0 ]
 				}
 
 			}
@@ -1979,7 +1979,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2491,14 +2491,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.327057, 184.207764, 51.0, 17.0 ],
+					"patching_rect" : [ 14.327057, 184.207764, 51.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 173.0, 47.0, 17.0 ],
+					"presentation_rect" : [ 0.0, 173.0, 65.0, 17.0 ],
 					"style" : "",
-					"text" : "CV",
+					"text" : "CV (0V / 5V)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2574,9 +2575,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.411713, 83.707771, 48.0, 24.0 ],
+					"patching_rect" : [ 5.411713, 83.707771, 48.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.176575, 100.827759, 97.0, 15.0 ],
+					"presentation_rect" : [ 12.176575, 100.827759, 97.0, 17.0 ],
 					"style" : "",
 					"text" : "Pulse Width",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
@@ -2605,7 +2606,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u355004003"
+					"varname" : "u731004460"
 				}
 
 			}
@@ -2656,9 +2657,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.411713, 182.5, 48.0, 33.0 ],
+					"patching_rect" : [ 50.411713, 182.5, 44.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.78066, 18.0, 273.21933, 15.0 ],
+					"presentation_rect" : [ 1.78066, 18.0, 273.21933, 17.0 ],
 					"style" : "",
 					"text" : "MATH VOLTAGE",
 					"textcolor" : [ 0.99518, 0.987661, 1.0, 1.0 ]
@@ -2796,7 +2797,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
-					"midpoints" : [ 985.833313, -20.0, 921.5, -20.0 ],
+					"midpoints" : [ 985.833333, -20.0, 921.5, -20.0 ],
 					"source" : [ "obj-137", 1 ]
 				}
 
@@ -2989,13 +2990,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-121" : [ "DelayTime", "DelayTime", 0 ],
-			"obj-29" : [ "Mute", "Mute", 0 ],
-			"obj-137" : [ "Env", "Env", 0 ],
 			"obj-148" : [ "SyncBase", "SyncBase", 0 ],
+			"obj-137" : [ "Env", "Env", 0 ],
+			"obj-80" : [ "Start", "Start", 0 ],
 			"obj-144" : [ "SyncNum", "SyncNum", 0 ],
-			"obj-147" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-80" : [ "Start", "Start", 0 ]
+			"obj-29" : [ "Mute", "Mute", 0 ],
+			"obj-121" : [ "DelayTime", "DelayTime", 0 ],
+			"obj-147" : [ "TimeMode", "TimeMode", 1 ]
 		}
 ,
 		"dependency_cache" : [  ],
